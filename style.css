@@ -11,17 +11,17 @@
 }
 .bloc2{
     background-color: white;
-    width: 300px;
+    width: 290px;
     padding-left: 20px;
-
+    border-radius: 17px;
 }
+
 main{
+    background-color: white;
     width:600px;
     height: 410px;
     display: flex;
-   
-  
-
+    border-radius: 17px;
 }
 body{
     display: flex;
@@ -34,15 +34,14 @@ body{
 }
 .result{
 color:white;
-padding-bottom: 20px;
-padding-top: 20px;
+padding-bottom: 30px;
+padding-top: 30px;
 
 
 }
 .rate{
-    width: 120px;
-    height: 120px;
-    background-color: brown;
+    width: 170px;
+    height: 170px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -50,19 +49,25 @@ padding-top: 20px;
     flex-direction: column;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(256, 72%, 46%, 1)) ; 
     color: white;
+    font-size: 70px;
+    font-family: "Hanken Grotesk",sans-serif;
+    font-weight: 800;
    
 }
 .great{
-    color: white;
+    color: rgb(255, 251, 251);
     padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-family: "Hanken Grotesk",sans-serif;
     
 }
 
 p{
-    color: white;
-    font-size: 12px;
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 13px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     padding: 0px 60px;
 }
 
@@ -76,7 +81,7 @@ p{
 #reaction{
     color:hsl(0, 100%, 67%);
     padding-top: 15px;
-    background-color:hsl(0, 100%, 98%) ;
+    background-color:hsla(0, 100%, 67%, 0.322) ;
     
  
   
@@ -87,7 +92,7 @@ p{
 #memory{
    color: hsl(39, 100%, 56%);
    padding-top: 15px;
-   background-color:hsla(36, 100%, 98%, 0.5) ;
+   background-color:hsla(39, 100%, 56%, 0.226) ;
 
    
 
@@ -95,13 +100,13 @@ p{
 #verbal{
     color:hsl(166, 100%, 37%);
     padding-top: 15px;
-background-color: hsla(166, 100%, 37%, 0.192);
+background-color: hsla(166, 100%, 37%, 0.158);
 
 }
 #visual{
     color:hsl(234, 85%, 45%);
     padding-top: 15px;
-    background-color:hsl(234, 85%, 98%) ; 
+    background-color:hsla(234, 85%, 45%, 0.212) ; 
     display: flex;
     margin-bottom: 30px;
   
@@ -112,13 +117,12 @@ background-color: hsla(166, 100%, 37%, 0.192);
 .item{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
     border-radius: 15px;
-    padding-right: 55px;
-    padding-left: 20px; 
     padding-bottom: 10px;
     margin-top: 20px;
     justify-items: center;
+    width: 260px;
       
      
 
@@ -137,7 +141,7 @@ span{
 }
 
 
-button{
+.button{
     background-color: hsl(224, 30%, 27%);
     width: 250px;
     text-align:  center;
@@ -146,5 +150,27 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+.button:hover{
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%)) ;
+}
+
+.button a{
     color: white;
+    text-decoration: none;
+}
+.box{
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.box>img{
+    padding-right: 10px;
+}
+.of{
+    color:rgba(241, 239, 239, 0.664);
+    font-size: 15px;
 }
